@@ -96,13 +96,12 @@ def send_encoded_image(completions_url: str, image_path: str, api_key: str):
 def main():
     completions_url = "https://openrouter.ai/api/v1/chat/completions"
     
-    
-    dataset_type = "4_comp"
+    dataset_type = "3_comp"
     for dataset in datasets:
-        messages_save_dir = os.path.join("../messages", dataset_type, dataset)
+        messages_save_dir = os.path.join("../messages", dataset_type, dataset, prompt)
         
         answer_sheet_path = f"../data/Datasets/answers/Testing/{dataset_type}/{dataset_type}_{dataset}_answers.csv"
-        dataset_prep = Preparator(prompt=cot_prompt,
+        dataset_prep = Preparator(prompt=prompts[prompt],
                                 answer_sheet_path=answer_sheet_path,
                                 save_dir=messages_save_dir,
                                 )

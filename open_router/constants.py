@@ -1,4 +1,4 @@
-prompt = "cot"
+prompt = "cot_prompt"
 model = "gpt4o"
 dataset_type = "3_comp"
 datasets = ["oa_os_oc", "oa_os_nc", "oa_ns_oc", "oa_ns_nc",
