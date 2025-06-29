@@ -57,7 +57,7 @@ class Preparator():
         answers_df = load_csv(self.answer_sheet_path)
         
         messages = []
-        message_index = 0
+        # message_index = 0
         # Iterate through the answers dataframe and extract image paths 
         for img_path in answers_df["image_path"]:
             base64_img = encode_image_to_base64(img_path)
@@ -65,12 +65,13 @@ class Preparator():
 
             message = self.fill_message_format(self.prompt, data_url=data_url)
 
-            messages.append(
-                {
-                    message_index: message
-                }
-            )
-            message_index += 1
+            # messages.append(
+            #     {
+            #         message_index: message
+            #     }
+            # )
+            messages.append(message)
+            # message_index += 1
         
         # Save as json
         ensure_dir(self.save_dir)
