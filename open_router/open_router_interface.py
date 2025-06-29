@@ -49,7 +49,6 @@ class OpenRouter():
                     }
                 }
             }
-
         response = requests.post(
             url = self.completions_url,
             headers=self.headers,

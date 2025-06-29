@@ -18,6 +18,10 @@ def load_csv(fname: str, separator:str = ",") -> pd.DataFrame:
     data = pd.read_csv(fname, sep=separator)
     return data
 
+def load_json(fname: str):
+    f = open(fname)
+    return json.load(f)
+
 def ensure_dir(dir_path: str):
     """Create a directory if it does not exist."""
     if not os.path.exists(dir_path):
