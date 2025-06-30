@@ -40,7 +40,7 @@ class OpenRouter():
                                 },
                                 "prediction": {
                                     "type": "string",
-                                    "description": "Selected answer"
+                                    "description": "A single letter response containing the selected prediction."
                                 }
                             },
                             "required": ["reasoning", "prediction"],

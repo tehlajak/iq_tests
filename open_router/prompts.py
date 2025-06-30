@@ -9,6 +9,6 @@ prompts = {
             3) Identify any unique features in the shapes.
             4) Eliminate options (A to H) that clearly do not match the observed patterns.
             5) Select the correct shape that completes the pattern.
-        Take your time with each step and be thorough in your reasoning. Describe the thinking process. Conclude with: ‘The correct answer is: _’.
+        Take your time with each step and be thorough in your reasoning. Describe the thinking process. You will be responding in a structured output with two fields. The 'reasoning' field will contain your reasoning process, and the 'prediction' field will contain your selected answer only.
     """
 }
