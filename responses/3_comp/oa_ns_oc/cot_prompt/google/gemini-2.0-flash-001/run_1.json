@@ -1,0 +1,366 @@
+[
+    {
+        "id": "gen-1751259645-mc4HTfKSfmQqSebX1Qjp",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259645,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern seems to involve a combination of shape, shading, and perhaps number of sides. Looking at the first row: White Hexagon -- Black Hexagon -- Black Hexagon. Second row: Gray Diamond -- Gray Circle -- Gray Triangle. Third row: Black Hexagon -- White Hexagon -- Black Hexagon. Fourth row: White Circle -- White Triangle -- White Square. Fifth row: Gray Diamond -- Gray Diamond -- X. Sixth row: White Triangle -- Gray Diamond -- The Bottom Right Shape. \\n\\nNotice in the first and third rows that there is a sequence of White Shape --- Black Shape --- Black Shape so Row 6: White Triangle -- Gray Diamond -- Black Shape (meaning the bottom right shape will be Black but must be a Diamond). Options A, B, C, E, F, G, and H all fail the \u2018Black Shape\u2019 requirement, so the correct answer is: D.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 203,
+            "total_tokens": 2169
+        }
+    },
+    {
+        "id": "gen-1751259647-01HWPNlNFZKF34PCOk0q",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259647,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern appears to involve two things: The shape located above the options moves row by row downward, and the shade of the shape above the options is used as the shade for the row that options are presented on. Therefore, the last element should follow these rules: the symbol above the options moves to the bottom row and the shade stays consistent with upper shapes. The correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 97,
+            "total_tokens": 2063
+        }
+    },
+    {
+        "id": "gen-1751259648-epzAWBM1e4k4VVkeQMM3",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259648,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The shading in the shapes alternates in the rows (white, dark, grey, which then restarts). Similarly, in each column, the shape is different. Therefore, a dark diamond on top of a medium grey circle is the answer. \\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 76,
+            "total_tokens": 2042
+        }
+    },
+    {
+        "id": "gen-1751259650-Fk4qzfRVwjAFfZO92Fx7",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259650,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern observed involves a complex interplay of shape, shading, and position. \\n\\n1.  **Shape Progression**: The shapes in the top row are a Hexagon, Hexagon, Hexagon, the shapes in the middle row are Diamond, Circle, Triangle, and square, the shapes in the bottom row are triangle, Diamond, X. The question mark location need a shape. To find that shape, we note:\\n\\n2.  **Shading**: The shading progresses from white to grey to black and back. The question mark location need a Black color.\\n\\n3.  **Symbol**: In all these shapes there is a small hexagon outside\\nGiven these observations, \\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 173,
+            "total_tokens": 2139
+        }
+    },
+    {
+        "id": "gen-1751259652-i0H06eTRbQ031UcOHEV0",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259652,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern involves a sequence of shapes on top and color shades from light to dark shapes, on the bottom. Looking at across the rows, the shapes on the top alternates between more pointed and less pointed shapes and they are mirrored. The shades become darker as you move down the rows. The correct answer is: D.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 82,
+            "total_tokens": 2048
+        }
+    },
+    {
+        "id": "gen-1751259654-hpDfrMgIOyymUfkrgO4O",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259654,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern follows a sequence that alternates shapes and shades. The first row has a hexagon, the second row has a diamond, the third row has another hexagon, the fourth row has an circle, the fifth row has a diamond and the sixth row has a triangle. The shading goes dark, grey, white, dark, grey. So the last element should be a diamond with a dark shade. \\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 106,
+            "total_tokens": 2072
+        }
+    },
+    {
+        "id": "gen-1751259656-3xGfoLpNinUSkZ0MZJyF",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259656,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"A\",\n  \"reasoning\": \"The pattern consists of changes across each row and column. Looking at the first column, the color grows darker from top to bottom. Looking at the shape in the third column we can tell that A is the correct answer. The correct answer is: A\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 69,
+            "total_tokens": 2035
+        }
+    },
+    {
+        "id": "gen-1751259658-yggPlkGccUeO4y5Ikc5U",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259658,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"Let's analyze the patterns in rows and columns. \\n\\nIn the first row: the shapes start from white with black border and a point is generated on the shape and the hexagon turns black.\\nIn the second row: the shapes start from gray and a point is generated on the shape and there is a shift from white to black, in the diamond.\\nIn the third row: the shapes start from black with white border and a point is generated on the shape and the hexagon turns white.\\nIn the fourth row: the shapes start from white with black border and a point is generated on the shape and the circle turns white.\\nIn the fifth row: the shapes start from gray and a point is generated on the shape and the Diamond turns gray.\\nIn the sixth row: the shapes start from white with black border and a point is generated on the shape and the Triangle turns gray.\\n\\nGiven the pattern, the missing shape starts from a gray shaded shape, and will have black dot on the shape. The shapes could be A, B, D, E, F or H. Based on this, the dot must be near the top of the shape. Therefore, the most suitable shape is D.\\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 278,
+            "total_tokens": 2244
+        }
+    },
+    {
+        "id": "gen-1751259661-AdOQdMgthl3HKx1WDhSU",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259661,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern consists of a diamond, followed by color changes ranging from empty, filled, to shades. Looking at options A to H, consider a shade of grey. The last shape is a diamond. Consider the shade of grey. \\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 75,
+            "total_tokens": 2041
+        }
+    },
+    {
+        "id": "gen-1751259662-5oKRp9sexFmpKrmS90lL",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259662,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern follows a decreasing shade of grey from left to right, and the shape on top follows an alternating diamond and circle pattern. \\n\\nTherefore, the correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 57,
+            "total_tokens": 2023
+        }
+    },
+    {
+        "id": "gen-1751259663-CbxtfBMgAhDMYLvR91sW",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259663,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern involves two components: the shape above the dividing line, and the color shade of the circle below the dividing line. The shapes above the line seem to alternate between an empty diamond and a filled diamond in each column. On the other hand, the shade of the circle alternates as follows: row 1 is lightest, row 2 is medium, row 3 and 4 show almost black color. Then at the bottom row, the color shade starts from the lightest to darker following the same trend. Considering the last column, since the shape above the dividing line is a cross/diamond, the shade of the circle below should correspond to the shade present in the rows 2 and 4. Since Row 4 has a diamond above with filled black color shade underneath and Row 2 has medium filled color shade, D is a viable answer. \\nThus, the shape should be a filled diamond, and the color shade should be shade of medium fill.\\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 222,
+            "total_tokens": 2188
+        }
+    },
+    {
+        "id": "gen-1751259666-4QLs1PxJzULWYAVpW0OQ",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259666,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern involves a shape on top and a circle at the bottom. The shape on top is filled dark or is just an outline. The shade of the circle depends on if the shape is filled or is just an outline. The shade of the circle is lighter when the element at the top is an outline. Therefore, the correct answer is: D.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 89,
+            "total_tokens": 2055
+        }
+    },
+    {
+        "id": "gen-1751259667-0FNoWLLUfRWKWhkOWCDV",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259667,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"Let's analyze the pattern row by row. \\nRow 1: The color of the shape goes from white to black\\nRow 2: The color of the shape goes from light grey to dark grey to light grey\\nRow 3: The color of the shape goes from black to white to black\\nRow 4: The color of the shape goes from white to black to white\\nRow 5: The color of the shape goes from light grey to dark grey to light grey\\nRow 6: The color of the shape goes from white to light grey\\n\\nFollowing the sequence, the pattern in the last row is that the color goes from white, to light grey, to dark grey. Thus, the only shape that meets the rule is D.\\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 191,
+            "total_tokens": 2157
+        }
+    },
+    {
+        "id": "gen-1751259669-xLvnQEeE9aDiVu6x57av",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259669,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern involves shape and shade transitions from top to bottom and left to right. Observing the diagonals, the shapes are diamond, diamond, and then the answer should be a diamond pattern. As for the darkness of the shapes, going from top to bottom, the darkness goes from light-gray to a darker-gray. We see the darkness goes from light-gray, to a darker shape, so the answer should be a darker gray diamond. Based on this observation, the correct option is D.\\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 128,
+            "total_tokens": 2094
+        }
+    }
+]

@@ -1,0 +1,366 @@
+[
+    {
+        "id": "gen-1751259841-24lD0ph7e7TMQmaUE3LZ",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259841,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The shapes get less sides across each row. The shades of the shape also get lighter across each row. These patterns conclude \u2018B\u2019.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 46,
+            "total_tokens": 2012
+        }
+    },
+    {
+        "id": "gen-1751259842-tVLn6Qrl6UlDaBMc8yeH",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259842,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The pattern consists of three columns, each containing a shape. In the first row, the number of sides of the shape decreases by one. The second row contains a diamond/square shape, and the shading changes from the first column to the second and remains the same for the third. The missing value would have to be of the same shape from the third row of columns 1 and 2, and the shading should be like the shape above.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 108,
+            "total_tokens": 2074
+        }
+    },
+    {
+        "id": "gen-1751259844-2QL6D7Mp8rEM9bvYbxfM",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259844,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern involves shapes changing their number of sides. Each column shows the shape increasing by 1. Looking at the last two rows and columns, it goes from a diamond shape to a pentagon. Also, the color shades alternate as you go down each column. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 78,
+            "total_tokens": 2044
+        }
+    },
+    {
+        "id": "gen-1751259845-Fdz8H48RdsQhm1QnnUEl",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259845,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The trend in the last row is the diminishing size of the shape, and then the number of sides increases in the shape. Therefore, I predict option C is the right answer, because it is slightly larger and contains an additional side compared to the shape immediately above it.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 72,
+            "total_tokens": 2038
+        }
+    },
+    {
+        "id": "gen-1751259846-jFJRQHoZ0tyq6eZs1YB7",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259847,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \" The shapes change their number of sides in the following order reading left to right: 6, 5, 4; 4, 4, 4; 0, 6, 5; 3, 3, 3; 5, 5, ? and 4, 4, ?. These follow the rule: (shape , shape -1, shape -2). Thus, the missing shape should be a square. The shading follows a pattern across each row: dark, lighter, grey. So that eliminates options: A, C, D, E, G, H. Furthermore, the bottom shapes are the same shapes as in row 1, but with 1 less side, e.g. when row 1 has shapes 6, 5, 4; row 2 has 5, 4, 3. Since the 6th row should have a shape thats has two sides less than row 5, therefore it is a 'diamond aka tilted square'. The correct answer is thus: B.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 235,
+            "total_tokens": 2201
+        }
+    },
+    {
+        "id": "gen-1751259849-faxt3g6eQfPADxnsH1KM",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259849,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"I observe the pattern focuses on the color of the shapes. Rows alternate between filled grey shapes and white shapes. Color darkness fades towards the right. The last shape in the third column should be a greyed-out five-sided polygon. \\nI eliminate answers that have black squares: A, D, E, H.\\nI eliminate answers that have grey squares: F, G.\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 105,
+            "total_tokens": 2071
+        }
+    },
+    {
+        "id": "gen-1751259850-JQL4OoBhhC2BCJRULCWn",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259850,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The pattern in the first row shows the number of sides decreasing by one in each box. The second row mirrors the first row. The third row shows the shading moving from dark to light. Therefore, the missing pattern should be a light-shaded diamond. The correct answer is: B\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 76,
+            "total_tokens": 2042
+        }
+    },
+    {
+        "id": "gen-1751259851-lpSMMRN7zZJfcakZS4ux",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259851,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The shapes become simpler as you progress to the right in each row. First row: hexagon, pentagon, square; second row: diamond. So the missing shape should be a simple shape like a diamond. The shade is dark in the first column, medium in the second, so it is likely it will be medium in the third column. Eliminate all options that are not diamonds. Eliminate the dark shaded options, or those with hexagons. Option B is the best. The correct answer is: B\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 121,
+            "total_tokens": 2087
+        }
+    },
+    {
+        "id": "gen-1751259853-Km7xK6wwdT9P04nTAO1R",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259853,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"F\",\n  \"reasoning\": \"I will carefully observe the changes across each row, column, and diagonal, noting any consistent transformations, I will note shape changes, rotations, or color shifts that might follow a sequence or logical rule, look for common pattern types, Identify any unique features, Eliminate options that clearly do not match, and choose the correct shape.\\n\\nShapes in the image are: hexagon, pentagon, square, rhombus, circle, triangle, and polygon\\n\\nIn the columns, the first shape from the row above becomes the last shape going down. In the first column, hexagon, rhombus, circle, triangle, polygon, rhombus.\\nIn the second column, pentagon, rhombus, hexagon, triangle, pentagon, rhombus. In the third column, square, rhombus, pentagon, triangle, rhombus, and square I'll assume. \\nThe square must be the rhombus shape.\\n\\nI think that the correct answer is F.\\n\\nThe correct answer is: F\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 229,
+            "total_tokens": 2195
+        }
+    },
+    {
+        "id": "gen-1751259855-ODAp8jTBUflQ6xXTV7Ya",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259855,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"F\",\n  \"reasoning\": \"The pattern here is as follows:\\n1.  The first three rows are shapes with a decreasing number of sides.\\n2.  The next two rows are triangles and diamonds that are more 'stylized'.\\n3.  The diamonds in the last two rows appear to be getting bigger while the shapes in the row below decreasing size.\\n\\nThe pattern in the last two row is that the grey shape above reduces in size and then the shape above rotates 45 degrees and repeats in the the row below.\\n\\nTherefore, the pattern should be a diamond with a rotation of 45 degress and slightly smaller, \u2018F\u2019 fits.\\n\\nThe correct answer is: F\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 164,
+            "total_tokens": 2130
+        }
+    },
+    {
+        "id": "gen-1751259857-SOo02VVXi4ZzyYDvhLQi",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259857,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern follows these rules:\\n1) The number of sides on the first shape decreases by one going down the column. For example, column 1 starts with a hexagon (6 sides), then a square (4 sides, noting that a diamond is also a square just rotated), circle, triangle, pentagon, and diamond.\\n2) The shading alternates between dark and gray through adjacent shapes.\\nSo the missing shape should be a convex shape with 6 sides, because it is the shape immediately after the pentagon. Therefore, the missing block should contain a hexagon with gray filling. Hence the answer is C.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 154,
+            "total_tokens": 2120
+        }
+    },
+    {
+        "id": "gen-1751259859-cK7FAcvjbMlViIIqfzq2",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259859,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern consists of an alternation between polygons with a decreasing number of sides and rhombuses. This goes from top to bottom. The color shifts from light grey, white, and dark grey. \\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 68,
+            "total_tokens": 2034
+        }
+    },
+    {
+        "id": "gen-1751259860-fJVcq9Nw1jeCXOQv9JnG",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259860,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"F\",\n  \"reasoning\": \"The pattern consists of several transformations occurring simultaneously. Looking at the first row shapes they have 6, 5, and 4 sides respectively, the next rows have 4, 4 and 3 sides, then 1, 1, 1 and finally 5 sides each. Thus the shape must have 4 sides. Focusing on color, the top row has light to dark shapes. Eliminating options A, D, E and H due to the color shade. The bottom row alternates colors as dark, light, dark. This further eliminates options B, C and G. Thus the shape must be F.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 144,
+            "total_tokens": 2110
+        }
+    },
+    {
+        "id": "gen-1751259862-JOEjwykG0FKuPC2M5IHM",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259862,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"F\",\n  \"reasoning\": \"The pattern consists of rows of polygons where the number of vertices decreases from left to right. The top shape in row one is grey, while the bottom shape is darker. Looking at the last column, the number of vertices decreases form top to column. Thus, the correct answer must be a grey diamond (four sided). This means the answer must be F.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 90,
+            "total_tokens": 2056
+        }
+    }
+]

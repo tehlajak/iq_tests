@@ -1,0 +1,366 @@
+[
+    {
+        "id": "gen-1751259744-LvmrhtNlUUvOqNkdiIvd",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259744,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"Each column contains shapes of the same number of sides as each other. In the first column, shapes have 5 sides or become a pentagon, so the answer should also be a pentagon. The shapes in the first column also become darker from top to bottom. Therefore, the correct answer should be darker and a pentagon in shape. Options A, B, C, D, and E are pentagons. Based on the color shading, as the shades increase from top to bottom and options A and C contain the appropriate shading for that location within its respective column, and E contains reversed colors. The only visible pattern is that the first row contains a shape on top and the fifth row also contains a shape on top. Therefore, C should be selected. \\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 183,
+            "total_tokens": 2149
+        }
+    },
+    {
+        "id": "gen-1751259746-AXDGHlDxLPuBcFFtBU3s",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259746,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The pattern increases the number of polygon sides going down the columns, as well as decreasing the overall size of the shapes horizontally. Starting with circle, square (4 sides), pentagon (5 sides), then pentagon, diamond (4 sides), and then a smaller pentagon. Following this pattern, the polygon above the missing shape in the column has 4 sides, meaning the missing shape must have 3. Of the provided options, only A, B, C, D, E, F, G, and H have that arrangement of shapes. The overall sizes of the shapes must also get smaller, such that the empty shape will be much smaller than the others. Color, sizes and rotation of shapes follows this pattern. Only the shape in 'B' completes the pattern. So,\\n\\nThe correct answer is: B\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 187,
+            "total_tokens": 2153
+        }
+    },
+    {
+        "id": "gen-1751259748-E5ZH4Js1Puhg6TmtI26l",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259748,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"A\",\n  \"reasoning\": \"The pattern is as follows:\\nEach column's upper rows have shapes, these shapes transform to a smaller version directly below. The last row presents a new shape depending on which column the shape is in. \\nColumn 1: Circle -> Pentagon -> Triangle\\nColumn 2: Square -> Pentagon -> Triangle\\nColumn 3: Triangle -> Pentagon -> Triangle\\n\\nThis means the shape in the last row will be a triangle. The shading will follow the pattern on a diagonal from dark to light.\\nThis means A is the correct choice.\\n\\nThe correct answer is: A\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 143,
+            "total_tokens": 2109
+        }
+    },
+    {
+        "id": "gen-1751259750-OEGl6kQv8Qpy60mPGcgp",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259750,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern seems to be based on the kind of geometrical figures in each respective row starting with a circle, squared shape followed by a five sided shape. The final figure should be a five sided figure followed by a Triangle. From left to right, the figures in the rows are large, small and medium sized. Thus, the correct answer is C and it is the only answer where the final image contains a medium triangle. Also, there is a progression of shade from dark, medium and lastly light. \"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 119,
+            "total_tokens": 2085
+        }
+    },
+    {
+        "id": "gen-1751259752-9WlPBoeaM8VZ9RZMBqAJ",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259752,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern seems to involve two sets of shapes: the polygon on top and a shape underneath. It appears that, in each column, the lower shape rotates from row 1 to row 2 to row 3 to row 4. After the pentagon should be a triangle. The shade can be light or gray, so it's okay to consider both shades. By looking at the last image in that space of the pentagon and triangle, the shapes will be oriented on the same side. Options A and C are too dark. Options B and H are too small. Comparing D, E, F and G, only D's shapes are oriented on the correct side. So, option D is the right image to complete the pattern.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 169,
+            "total_tokens": 2135
+        }
+    },
+    {
+        "id": "gen-1751259754-KQUFAANbJtmd87Q3z6ou",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259754,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern involves decreasing shading from top to bottom in the column, and the shapes alternate between a pentagon and a triangle. In the last column, first shape is a circle, then a triangle, then a pentagon, then a diamond, and after that there is a cross. After the pentagon and the cross we expect a pentagon at the top and triangle at the bottom. Options with different shapes (A, B, D, E, F, G, H) are immediately eliminated. Considering the shading, the shading decreases from top to bottom, so the last triangle has to be darker than the pentagon above. So option A is discarded due to the wrong shading. In this case the darker triangle has to be option C. \\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 179,
+            "total_tokens": 2145
+        }
+    },
+    {
+        "id": "gen-1751259756-rRFbItyYCHpNPoMGV5xS",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259756,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern in the array is that the shapes in the row start with circles, then squares, then pentagons, then heptagons. The circles have decreasing size. The squares have decreasing size. The pentagons have decreasing size with increasing darkness. So if the last shape is the pentagon, then the shape in the bottom, right corner has to be a heptagon that's darker than the one located above it. The only plausible option is C. So, C is the correct answer, since the pentagon is of darker shade than the pentagon on top of it. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 145,
+            "total_tokens": 2111
+        }
+    },
+    {
+        "id": "gen-1751259758-VArErpPIvH8dj6v7cO0P",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259758,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern involves two alternating shapes in each column. The top shape alternates between a circle, a square, and a triangle. The bottom shape alternates between a pentagon and a diamond. Additionally, the shade alternates between dark, light, and no shade on the shape. In the last column, the shapes are a circle, a triangle, a pentagon, and a diamond. The final pattern has a pentagon then by the rules, the appropriate answer must be a shaded triangle. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 122,
+            "total_tokens": 2088
+        }
+    },
+    {
+        "id": "gen-1751259759-f8R6gdz1l5yp0Tw6thJr",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259759,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The first row is composed of circles. The second row is composed of shapes with 3-6 sides. The third row is composed of pentagons, and the last row contains triangle shape. The shading in each row changes horizontally with each shape getting less shaded. Thus, it should be a white triangle. The correct answer is: B\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 88,
+            "total_tokens": 2054
+        }
+    },
+    {
+        "id": "gen-1751259761-Wrt2DNmDkoldBhYrFaaV",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259761,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes in the third column seem to follow shapes in the first column. The shades are a gradient from the darkest to the lightest in the rows. A to H only displays a triangle and a pentagon. C has to be it. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 73,
+            "total_tokens": 2039
+        }
+    },
+    {
+        "id": "gen-1751259762-J4G2ao8Ss7mqab2R8OTF",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259762,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern involves shapes transforming across rows with the outline shape getting smaller and a corresponding shape appears at the bottom after each row. In the first row, the top shape is a circle and the second shape is a pentagon, so after the third row, the pentagon must be present on the above portion, and also a new shape must be added. Also each row has the shapes reducing in size so must choose a shape that matches the third row. Options A, B, C, D, and E match the upper shape. Options A, C match the shading. Only C has the appropriate triangle on bottom. Based on this, I will select choice C.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 152,
+            "total_tokens": 2118
+        }
+    },
+    {
+        "id": "gen-1751259764-w84ugxNOrrvdjcbr8imK",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259764,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern involves two alternating shapes in each column, a pentagon getting progressively smaller and shaded lighter, and a small shape above the pentagon getting more complex, with shape borders getting thicker. Looking down the third column, the pentagon has already disappeared. Therefore, to complete the pattern, it requires an increasingly complex triangle with a thicker border.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 87,
+            "total_tokens": 2053
+        }
+    },
+    {
+        "id": "gen-1751259766-cukLp1DLKrcMrYJH04Xu",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259766,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The first row consists of a circle, the second row consists of a square, the third row consists of a pentagon, the forth row consists of a hexagon, and the fifth row consists of a heptagon. Each column has shapes of increasing size. The color shade is also increasing row-wise and column-wise. Therefore, the missing shape should be a very small, outline of a triangle. \\n\\nThe correct answer is: B\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 110,
+            "total_tokens": 2076
+        }
+    },
+    {
+        "id": "gen-1751259768-XUULb3bj3al22GjMIwJh",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259768,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"B\",\n  \"reasoning\": \"The pattern involves a large shape in the top rows gradually decreasing in size to become the smaller shape in the bottom row. The first row has a circle, the second row has a square, the third row has a pentagon, the fourth row has a rhombus. Therefore based on this each column follows the shapes from large to small. Only options B and H have a small square but H is the wrong way round. Therefore the correct answer is B.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 110,
+            "total_tokens": 2076
+        }
+    }
+]

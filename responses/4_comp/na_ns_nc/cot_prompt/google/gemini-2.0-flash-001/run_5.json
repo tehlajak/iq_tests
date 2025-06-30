@@ -1,0 +1,366 @@
+[
+    {
+        "id": "gen-1751260163-D0CeQttKHUOOQxLFDtND",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260163,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"A\",\n  \"reasoning\": \"Each image contains 2 shapes stacked. The top shapes have this pattern: Square, Diamond, Circle, Circle, Circle, then repeats. The bottom shapes have this pattern: None , None, None, None, Pentagon, then repeats. The shades of each shape alternate horizontally left to right between dark and light. Therefore, the correct shape is the first option A.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 92,
+            "total_tokens": 2058
+        }
+    },
+    {
+        "id": "gen-1751260165-zqUZ3ziOfdX0BuXbFsYu",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260165,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The first shape of each item rotates. The shade alternates between dark, light, and medium dark in each column respectively. Therefore, the missing shape is a dark circle and medium dark pentagon. \\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 66,
+            "total_tokens": 2032
+        }
+    },
+    {
+        "id": "gen-1751260166-JPrB4AT1JYJ828trph38",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260166,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"Shapes in the first row are square, in the second row are diamond, third row is circle, and final row is a pentagon. In the first column the shapes are dark, in the second they are light, and in the third they are dark again. This eliminates choices C, E, F and G. Because the right answer must include a dark circle and a pentagon, option D is the correct answer.  \\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 115,
+            "total_tokens": 2081
+        }
+    },
+    {
+        "id": "gen-1751260168-K3EIQRVd7G7VnqdrKTAx",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260168,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern consists of two shapes, one inside the other. The top shape alternates between square, diamond, circle, circle, and back to shapes like the square but are triangles or circles. The position shifts, sizes increase from left to right, and colors change in the same manner. The bottom shape seems less ordered till the last shape which is always a hexagon-like shape. In column order, the smaller shape on the last row should be a circle the same size as row 1 column 1. The shape in the lower row should have 5 edges. Considering all of this, option 'D' seems the most ideal as the other possible choices have either the wrong number of edges or wrong color.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 161,
+            "total_tokens": 2127
+        }
+    },
+    {
+        "id": "gen-1751260171-K8UsOY04In4N0TNi2pUC",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260171,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"I observed the changes across each row and column. The size of the shapes on the picture seems to vary across first and second columns (the first one is bigger than the second) and back to the original size again in the last column (third). At the same time, it changes from dark to light and back to dark. The last shape in the picture needs to be dark again and the same size as the first shape. Also, the shape above needs to be circle and dark color. That way only answer D can be the correct answer.\\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 138,
+            "total_tokens": 2104
+        }
+    },
+    {
+        "id": "gen-1751260173-dskvYm7kNluqeXuOJ8jK",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260173,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"A\",\n  \"reasoning\": \"The size of the shapes appears to be decreasing from left to right in the first two rows, then increasing. This pattern continues in subsequent rows. Also the shading of the shapes is dark, light, then medium. Based on this pattern, option A is most likely the answer.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 74,
+            "total_tokens": 2040
+        }
+    },
+    {
+        "id": "gen-1751260174-lExIKmMbKQ3qF2BrGWy2",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260174,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern consists of figures that change size and fill as you move across a row. Consider each shape in a row and what changes among them. Looking down the columns, the shapes stay the same, but the fill does change. Thus, the shape is a circle with a dark fill. The correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 83,
+            "total_tokens": 2049
+        }
+    },
+    {
+        "id": "gen-1751260176-0sjvrFQhuSbPZFA1vtLb",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260176,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The first row's shapes and the second row's shapes have to have a pattern. It looks as if the shapes alternate between square, diamond, circle. The gray tone also alternates between light, dark, null. The bottom row is a pentagon. Based on this, the missing shape should be dark circle at the top, and pentagon bottom. \\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 102,
+            "total_tokens": 2068
+        }
+    },
+    {
+        "id": "gen-1751260178-DGDL5i1f07drKA7w9NeE",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260178,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The first row contains squares, the second row contains diamonds, the third row contains circles. Therefore, the missing shape must also be a circle. \\\\nThe general color scheme in the grid is dark, light, dark. The first element in the bottom row is dark, the second element is light, so the answer must be dark. \\\\nTherefore the missing element must be a dark circle with a pentagon. The correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 109,
+            "total_tokens": 2075
+        }
+    },
+    {
+        "id": "gen-1751260179-we72FH1QWAqU4ga3fQa7",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260179,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The shapes in the last row seem to match the shapes in the first row. The size and shading change in the first two rows follow this pattern: regular polygon, small, regular polygon, large, regular polygon, small and full shaded regular polygon. So the final shape should resemble options A, B, D, and H. Now observing the shape above the polygon, the last row starts from a regular polygon, goes to small, and finally a full color polygon. In this case, the option D satisfies all conditions. Hence it is the right answer.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 130,
+            "total_tokens": 2096
+        }
+    },
+    {
+        "id": "gen-1751260182-6G4hTUvv40sSgb1b3IwW",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260182,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"H\",\n  \"reasoning\": \"The pattern combines a shape from the top row with a shape from the left column. The rows alternate between a square, diamond, circle, circle, circle, and a pentagon. The first column goes in intensity (dark to light). Given this, the correct answer should have a lighter shaded circle over a pentagon. \\n\\nThe correct answer is: H\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 94,
+            "total_tokens": 2060
+        }
+    },
+    {
+        "id": "gen-1751260183-dzsKhAXTlmgWCgWrBRO2",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260183,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The first row cycles through square shapes with full fill, no fill, and then full fill again. The second row does the same, but with diamonds. the third row with circles, the fourth with bigger circle and the fifth with pentagons. The rule for shade is the opposite from top symbol, and the rule for location of the top symbol is always located at the top. Therefore, the top symbol of the correct option is a filled circle, while its bottom component is a filled pentagon. Given that the bottom symbol needs to be a pentagon, the elimination includes those starting with triangles and all white circles, which leaves us with A,B,D, H. When considering shade relation we only left with D to take into account.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 169,
+            "total_tokens": 2135
+        }
+    },
+    {
+        "id": "gen-1751260185-LDV6PY71qUJC0R3NFncW",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260185,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"H\",\n  \"reasoning\": \"The pattern consists of two shapes. The top shape in any column changes in size from large to small to medium. The bottom shape follows a color shade from dark to light to medium. So I think that the correct option should have a medium-sized shape and a medium shade in the bottom shape completing the pattern. \\n\\nThe correct answer is: H\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 92,
+            "total_tokens": 2058
+        }
+    },
+    {
+        "id": "gen-1751260187-tkPLCOmTgzw4FfUeMxWw",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260187,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern is based on shape, size, and color. Row 1 consists of squares, row 2 diamonds, row 3 is made up of circles, row 4 is a pattern of shades increasing in darkness, and row 5 consist of pentagons.\\n\\nIn the final missing component, the color in each column alternates between light and dark meaning the final square will be dark. \\n\\nTherefore, the answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 112,
+            "total_tokens": 2078
+        }
+    }
+]

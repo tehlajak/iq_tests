@@ -1,0 +1,366 @@
+[
+    {
+        "id": "gen-1751259647-zlCUfJXRf0I3VMNSEREg",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259647,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern in the grid involves a shape in the top row and then another shape in the bottom row. The shapes decrease in the number of sides from left to right. Also the shading alternates by becoming lighter in each cell. Therefore, the answer should be the shape with four sides (i.e a square) and the shape is now even lighter. The only plausible answer is C.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 106,
+            "total_tokens": 2072
+        }
+    },
+    {
+        "id": "gen-1751259649-IcO7upyfFY8E4IPqq4uy",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259649,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"Let's analyze this pattern row by row. \\nIn the first row, we have circle, the circle shapes change - filled to unfilled. The remaining shapes are gradually decreasing in size.\\nIn the second raw, there's a hexagon which morphs to a pentagon and a square with reduction in size\\nIn the third row, there's a traingle and in the last cell of third row the traingle reduces in size.\\nIn the fourth row: hexagon morphing to a square with reduction in size.\\nIn the sixth row: Circle morphing to hexagon with reduction in size.\\n\\nTherefore, in the last row we need a Hexagon followed by a Square. So the last shap is the Hexagon with size reduction.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 186,
+            "total_tokens": 2152
+        }
+    },
+    {
+        "id": "gen-1751259651-Ha51kZevXRJTknLO1HyJ",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259651,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes across the top row are changing from a circle to a hexagon and from a solid shape to an outlined shape. The shapes in the column 1 alternate between hexagon and an outline circle. In column 2, the top shape alternates a circle and a pentagon. The shapes in the rows alternate shade, from dark to light. By following the pattern, the missing shapes will be a filled in hexagon and filled in square. Therefore, the answer is 'C'.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 113,
+            "total_tokens": 2079
+        }
+    },
+    {
+        "id": "gen-1751259653-7lspPrgbqmw6wrrG6Rrn",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259653,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The images in the question involve 2 shapes in each cell. \\nIn the 1st row, from left to right we have a circle and a pentagon. In the 2nd row, we have a hexagon and a pentagon. In the 3rd row we have a triangle and a square. In the 4th row we have a hexagon and a square. In the 5th row, we have a hexagon and a pentagon. \\nWe are looking for shapes in the 6th row, where in the first 2 columns, cells have a circle and a hexagon. So the cell in the 6th row must be a hexagon and a square respectively.\\nTherefore the figure in options C represents this shape. \\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 183,
+            "total_tokens": 2149
+        }
+    },
+    {
+        "id": "gen-1751259654-K1ttR4QdgL7oRyxAETXx",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259655,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes on the first line are Circles, on the second line are Hexagons, on the 3rd Triangles, the 4th are Hexagons again. These sets have a reduction in number of sides from the left to the right. Also the shades change from a darker at the top, to lighter below. Therefore, the next shape must be Hexagons with fewer sides and the shading to be light. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 112,
+            "total_tokens": 2078
+        }
+    },
+    {
+        "id": "gen-1751259656-f2wgEPRG724hUY68jxRF",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259656,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"D\",\n  \"reasoning\": \"The pattern involves two shapes. The top shape from left to right: Circle, Circle, Empty Circle, Hexagon, Pentagon, Square, Triangle, Triangle, Triangle, Hexagon, Hexagon, Pentagon, Circle, Hexagon. From top to Bottom is is Circle, Hexagon, Triangle, Hexagon, Circle. The bottom shape from left to right: Hexagon, Pentagon, Square, Pentagon, Square, Triangle, Square, Triangle, Pentagon, Square, Hexagon, None. From top to bottom is Hexagon, Pentagon, Triangle, Square, Hexagon. Thus the next shape must be Circle on top and Pentagon is bottom. \\n\\nThe correct answer is: D\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 159,
+            "total_tokens": 2125
+        }
+    },
+    {
+        "id": "gen-1751259658-7r9X0Y0jyYCj3XwM8unL",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259658,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes in each row seem to be changing by the number of sides the shape has, decreasing from 6 to 5 to 4 to 3 for a triangle, and finally to 1. The top row decreases, going from a circle to a hexagon to a pentagon to a square. The shade also decreases by one shade each time across the row from dark to light. Also by columns, comparing the shape at the top and bottom halves reveals the shape gets smaller in size. Therefore, based on the given shapes, C is the only shape that adheres to all the patterns, so the answer will be C for hexagon.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 146,
+            "total_tokens": 2112
+        }
+    },
+    {
+        "id": "gen-1751259660-ZgJfTRo70FaHYy8ozSGs",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259660,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern consists of two shapes. The top row follows: circle, pentagon, then hexagon. The shapes in the puzzle are also shaded. The first column shapes are darkly shaded, second column shapes are lightly shaded and the third column shapes are empty. If we follow this pattern into the last square, the top shape must be a hexagon. And following the shading, the hexagon must be empty, which follows the top shape. The bottom shape follows this rule: hexagon, square, pentagon. Because the top shape follows circle, pentagon, hexagon then bottom shape follows hexagon, square, pentagon, we notice that it is minus 1 edge for each column. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 160,
+            "total_tokens": 2126
+        }
+    },
+    {
+        "id": "gen-1751259662-vLBNOlJt9vVmmakWHLjD",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259662,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes in the first row decrease in number of sides and have no shading. The second row decreases in sides and is shaded a darker color, and the third row decreases in sides and is shaded a lighter color. The last shape of the third row is not shaded and has four sides, thus is a square. The shape that would follow is a square.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 90,
+            "total_tokens": 2056
+        }
+    },
+    {
+        "id": "gen-1751259664-zsegIqGXpvZHFB3iHnBZ",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259664,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes have a certain amount of sides starting with a circle in the top left, and ending with a triangle (3 sides) in the middle column. The numbers of sides go down on the right column. The circle is hollow in the top right. Bottom left you have a circle, and a hexagon below that. Then we need another hexagon because you have one with circles on either side. Another detail is that the shapes alternate on darkness levels, starting with a dark shape and it goes light, dark, light, dark, etc.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 126,
+            "total_tokens": 2092
+        }
+    },
+    {
+        "id": "gen-1751259665-JS0geagtIXhae3WYMdwO",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259665,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes in the first row are circles, the second are hexagons, the third are triangles, the fourth are hexagons, the fifth are hexagons, the sixth are circles. The shapes at the bottom are hexagonal, circular, hexagonal\\nIn the first column the shapes are full in color, the second they are less so, and the third they are hollow.\\nThe size reduces from left to right in the row. Therefore, the shape that belongs where it is marked with an x is a hollow hexagon, of a small size.Therefore the only possibility is C.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 148,
+            "total_tokens": 2114
+        }
+    },
+    {
+        "id": "gen-1751259668-kezqVDfcdTgAdEv2GXYC",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259668,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes in each row are simplified or reduced in sides (circle, hexagon, pentagon...). The shapes in each column are in various shades of gray following a pattern (dark, mid, light,...). Following these rules, The last shape of the matrix needs to be a square shape and it should be in light color. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 90,
+            "total_tokens": 2056
+        }
+    },
+    {
+        "id": "gen-1751259670-VBUgj3Zn26OHwfoMR2To",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259670,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"I am examining the changes across each row, column, and diagonal. In the first row, the shapes are changing from circle to nothing. In the second row, the shapes are polygons, hexagon, pentagon, and rhombus. In the third row, the shape is changing from triangle to nothing. In the fourth row, the shapes are polygons, hexagon, pentagon, and rhombus. In the fifth row, the shapes are polygons, hexagon, pentagon, and nothing. In the sixth row, the shapes are polygons, circle and hexagon. The pattern of changes follows a sequence, and is following the shape pattern polygons. So based on the shapes available in the option, 'C' is the only figure that completes the sequence.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 168,
+            "total_tokens": 2134
+        }
+    },
+    {
+        "id": "gen-1751259671-9kUyPavJ49F9TC7HhsqR",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259671,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes along the rows and columns decrease in the number of sides. Looking at the vertical columns, the top shape is a circle, a hexagon, a triangle, a hexagon, a circle. The second shape from the top looks to be the number of sides of the shape from above -1. This pattern appears to continue in the horizontal columns as well, so the answer should be a hexagon with a four-sided shape below it, i.e. 'Square'.\\nTherefore, from the available choices at the bottom, the only solution is C.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 131,
+            "total_tokens": 2097
+        }
+    }
+]

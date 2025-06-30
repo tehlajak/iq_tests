@@ -1,0 +1,366 @@
+[
+    {
+        "id": "gen-1751259725-UoiGseyaU62uhwXRFo75",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259725,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern seems to have two sub-patterns: one is that shapes change according to the sequence (diamond -> triangle -> square -> rhombus -> circle -> ?, and so on). Another one is that they change in shades - Dark -> intermediate -> light. So, following these patterns, the shape should be square, and the shade be light. \\nTherefore, the correct answer is C.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 97,
+            "total_tokens": 2063
+        }
+    },
+    {
+        "id": "gen-1751259727-8XVZNvxilKinUq4msOGI",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259727,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern appears to involve the transition from one shape to the next, as it changes shape, shade, and position/orientation between the first and second shapes.\\n1.  **Rows**: The shape changes in each row. The shading also changes in the second shade for example square, and circle.\\n2.  **Columns**: Shade changes, for example, from dark to shade to empty.\\nNow, following this logic, the missing component should be a Square Shape of light shade.\\n\\nLooking at options A to H, the Shape matches the logic explained above the correct shape is C.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 151,
+            "total_tokens": 2117
+        }
+    },
+    {
+        "id": "gen-1751259728-8c2qwuLC6u0co3ApOcdV",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259728,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern here involves the shape changing and the color shifting. If we look at first shape in each cell (diamond, triangle, square, ... then circle, triangle, square, ... then circle, triangle, ?shape?) we can infer that the missing shape should be diamond/rhombus. If we look at the color in each cell (dark dark dark grey dark grey white dark grey white dark grey ?) then the missing cell should be a dark color. So the shape is diamond/rhombus with dark color. Options D and H can be discarded now because they have light colors. In first column, top shape is diamond, then square, then circle. The middle column's top shape is triangle, then circle, then square. We can see that this pattern repeats itself. Hence, missing diamond shape would be rotated 45 degrees. Therefore, it becomes obvious that only option C fits the logic.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 202,
+            "total_tokens": 2168
+        }
+    },
+    {
+        "id": "gen-1751259730-7iVx8raeGDRza2NLRDuE",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259730,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern consists of shapes with different shading. Starting from the top left, you see a diamond, triangle, square, rhombus, circle, and smaller circle. The color of the shape in each column moves from black to gray (top to bottom). Therefore, following this pattern, the missing piece should be square at the top, a gray rhombus at the bottom and be fully black, resembling choice C.\\n\\nTherefore, the correct answer is: C.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 113,
+            "total_tokens": 2079
+        }
+    },
+    {
+        "id": "gen-1751259732-iDsIBmV0xm7AGVCDYfCe",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259732,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes switch between the two rows, so the answer will contain a square. The shade switches with each shape, and the shade will be black. The correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 55,
+            "total_tokens": 2021
+        }
+    },
+    {
+        "id": "gen-1751259734-MeZhVDKeHttaIZ1QRtn8",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259734,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern is such that in each row, we have a diamond, triangle, square, romboid, circle; and in each column we have either shade scaling, so it's a dark, medium, light shade or shape scaling. The last shape must include the romboid with the lightest shade. From the options available, the correct answer is: C.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 93,
+            "total_tokens": 2059
+        }
+    },
+    {
+        "id": "gen-1751259736-UUwGQXk9QWHeFN1bg658",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259736,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern involves both shape and shading changes. From top to bottom, shapes goes as follows: diamond, triangle, square, diamond, circle, and triangle. It then repeats. So we are expecting a square, The shading goes from dark to gray to black. Thus, the expected shape is a square in black over a gray diamond.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 96,
+            "total_tokens": 2062
+        }
+    },
+    {
+        "id": "gen-1751259738-VfoFlbpQl10cmKG7ltHI",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259738,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern shifts shapes and colors across rows and columns.\\n\\n*   Rows: It goes from diamond, triangle, square, then gray rotated diamond, grayed circle, triangle, circled, triangle, then the last row must be square.\\n*   Columns: Each column follows the pattern: Diamond, triangle and grayed square, then grayed rotated diamond, circle, dot, then a circle, triangle then the last must be square.\\n*   Color: The shifting color pattern is black, white, gray, black white gray, thus the two shapes must be square with upper of white and lower of rhombus gray, resulting in the choice C.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 163,
+            "total_tokens": 2129
+        }
+    },
+    {
+        "id": "gen-1751259740-RZ3Mr7Yhg4Cx5u8jpITU",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259740,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes in the grid have three attributes: the main shape (diamond, triangle, square, etc.), the shaded color (black, dark grey, light grey, white) and the top or bottom location. Let's examine each column, one at a time.\\nIn the first column of the original grid, the order of shapes from top to bottom is: diamond, triangle, square, diamond, circle, black circle.\\nIn the second column of the original grid, the order of shapes from top to bottom is: diamond, square, square, circle, grey circle, triangle.\\nIn the third column of the original grid, the order of shapes from top to bottom is: diamond, circle, square, triangle, X, ?.\\nBy inspecting the first two columns it is clear the grid consists of two parts. The first figure in the top row, the second figure is in the middle row, the third figure is in the row above the middle (3rd row). So we select the element of the shape that corresponds to the light/white grey diamond, located in the row diagonal to each other. From top to bottom the color shades of the corresponding shapes are different with the last row missing. The pattern is:\\nThe 1st column, rows 1 to 6 top colors are: dark gray, white, grey, grey, black, white.\\nThe 2nd column, rows 1 to 6 colors are: dark gray, white, black, gray, dark gray, white.\\nThe 3rd column, rows 1 to 5 colors are: dark gray, white, black, grey, white, ?.\\nThe missing value is a 'grey diamond' at the bottom location.\\nOptions A and B can be eliminated.\\nOptions E and F can be eliminated.\\nOptions G and H can be eliminated.\\nThe correct answer is therefore: C.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 409,
+            "total_tokens": 2375
+        }
+    },
+    {
+        "id": "gen-1751259744-ViE80ZMiMqku5YQZJD2a",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259744,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern across the rows is as follows:\\n1. The shape transforms to a square, then a circle, then a diamond. The diamond transformation is a square shape rotated 45 degrees.\\n2. The shapes are arranged as a triangle, squared, circle, diamond, then circle, triangle, square, then again follow the same pattern.\\n3. The colors change across the column. The first shape (small) has a dark shade, the following shape has dark shade, and then the shade is not shaded. The shading cycle is 3.\\nThe missing shape will be:\\nShape: Diamond (square turned 45 degrees)\\nShade: Dark shaded\\n\\nOption C is the right answer.\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 175,
+            "total_tokens": 2141
+        }
+    },
+    {
+        "id": "gen-1751259746-4zGsSmEuT4vSb9kZRzLf",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259746,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern shifts shapes in rows and adjusts shading down columns. Row 1 goes from diamond, to square, to circle. Row 2 shifts from triangle, to square, to circle. Row 3 goes from square, to circle, to diamond. Shading in column 1 is black, gray, then white. The pattern goes back to the black to gray to white shifting shape order. Hence the gray diamond option is the only viable option to finish up the sequence. Options C to H show a diamond image that has the gray shading.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 128,
+            "total_tokens": 2094
+        }
+    },
+    {
+        "id": "gen-1751259748-AzNMBUhXosPaHsirPDzo",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259748,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The shapes in the grid consist of diamond, triangle, square and circle. In each row; the first one is black; the second one is dark grey and the third is light grey. In each column: The first shape is a diamond, going down the column; The second is triangle; the third one is a square and the fourth is a circle. The missing shape therefore must be a diamond (same as column 1) and is light grey (for the last row).\\n\\nTherefore the answer is C.\\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 134,
+            "total_tokens": 2100
+        }
+    },
+    {
+        "id": "gen-1751259749-m6RRWlYRjyY9njUO5A19",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259749,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern contains the following shapes: diamond, triangle, square and circle. The shading also changes from row to row. Looking at the last row implies that the correct answer will have a square and a diamond. Options A, B, E, F are therefore incorrect. The shading in the last row has changed from row to row. Therefore H is incorrect. Of the two left, it is rotating, hence D is incorrect. Hence, the correct answer is C, where the square is shaded dark and the rotated diamond is shaded light.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 126,
+            "total_tokens": 2092
+        }
+    },
+    {
+        "id": "gen-1751259751-3dGwBNpiM2XnklRsCOe4",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751259751,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"C\",\n  \"reasoning\": \"The pattern shows different geometric shapes, where in each row, the shade and the shape of the objects are different. The third block should follow this pattern by having a diamond shape with a shade of black. \\n\\nThus, the answer should be be option C). \\n\\nThe correct answer is: C\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 84,
+            "total_tokens": 2050
+        }
+    }
+]

@@ -1,0 +1,366 @@
+[
+    {
+        "id": "gen-1751260179-wZQSUZlgYQGAut0zuhQI",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260179,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"F\",\n  \"reasoning\": \"The number of sides is increasing by one in each row. Shapes down the rows change shade from left to right, the shade is also decreasing from left to right. The correct answer is: F\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 58,
+            "total_tokens": 2024
+        }
+    },
+    {
+        "id": "gen-1751260180-Um8WjWb78S6f5wM0ZdaC",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260180,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"The pattern involves shapes of different sizes, shading, and number of sides. From top to bottom, the second column has small shapes, then large shapes. From left to right, the last column has the same shape as the first, but of average/medium size. Thus, the last box should be a medium-size square. It needs to be gray-shaded. Options A, B, C, D, and F don't have a square. Options G, and H have the wrong shading. Only option E satisfies both.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 127,
+            "total_tokens": 2093
+        }
+    },
+    {
+        "id": "gen-1751260182-XJQ5YMcTF75uLESPQJQu",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260182,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"F\",\n  \"reasoning\": \"The pattern across the rows seems to be that the number of sides on the shape are increasing across each row. The shapes in each column have the same number of sides. For example, the first column has shapes with four sides (a square). Also, the brightness of the shapes is decreasing across each row -- starting dark and getting lighter. Based on this pattern, the correct option should contain a hexagon shape, since the previous shape in the middle column had five sides (a pentagon). The hexagon should be light gray, since the hexagon in the first column is dark gray and the hexagon in the second column is slightly less dark gray. Of the options provided, F and G show a hexagon that is light gray. The triangle immediately under it is the critical factor that must be identified using the same rules. The number of sides of the shape in the bottom row need to follow the pattern, but the shapes must match the type of shape on each of the columns that are in the original image. So the last shape must contain a triangle.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 227,
+            "total_tokens": 2193
+        }
+    },
+    {
+        "id": "gen-1751260184-5fuEAcrlwjCjhzZ2Sjus",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260184,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"G\",\n  \"reasoning\": \"The first two columns show that a shape (n sides) followed by a shape (n+1 sides). The third column needs to keep that pattern (shape with 6 sides). Additionally, the shade is consistent in column one, the shade should be consistent in column two and the shade will be consistent in column three. In column three the shade varies. The final shape must be a hexagon with a shade to mirror the other hexagons. \\nThus, The correct answer is: G\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 119,
+            "total_tokens": 2085
+        }
+    },
+    {
+        "id": "gen-1751260186-0wyYCA21zNfReBnHPGNd",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260186,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"The pattern seems to be as follows:\\n\\n1.  **Shape Shift**: The given shapes within the dotted square are changing. Reading across the first row of the square, we have a small square, then the square becomes bigger, then it becomes larger. The first shape in the second row starts as a circle, the a pentagon, then a triangle in the third row, and finally we have a hexagon. Taking into account the last shape in the second row is a pentagon, so the value of the question mark has to be a square.\\n\\n2.  **Color**: There is some shifting happening in the color scheme. The color changes when we move across the rows.\\n\\nFrom the given choices, the only shape with the required features is option 'E'.\\n\\n The correct answer is: E\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 192,
+            "total_tokens": 2158
+        }
+    },
+    {
+        "id": "gen-1751260188-JHxjezarJdqMV9i6zGi8",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260188,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"The shapes are changing and progressing across each row using the progression: square, circle, pentagon, triangle, hexagon. The shades are going form light to dark. The correct answer must be a triangle with a shade light in color. The correct answer is: E\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 72,
+            "total_tokens": 2038
+        }
+    },
+    {
+        "id": "gen-1751260189-hWPaa9XASmVLbZP3yapf",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260189,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"The pattern involves shapes changing based on their position. The number of sides appears to decrease from left to right within each row. Also, the shapes in the bottom row are what you get by removing the inner shape from the shape above, where the inner shape is always a filled square/dot. The shape on the bottom in the 3rd column will therefore be a filled square.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 95,
+            "total_tokens": 2061
+        }
+    },
+    {
+        "id": "gen-1751260190-Go3WkKrf2Qsdj2AvrbCC",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260190,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"1) Shape Progression: Moving across each row, the number of sides the shape has in general increases (dot->square/circle->pentagon/hexagon). Moving down each column, the number of sides the shape generally increases (square/circle/pentagon->hexagon). Therefore, the last figure required must follow this pattern. The shape must generally be a triangle, and the figure in the last position should be a filled square with gray color.\\\\\\n2) Shade Progression: Each row varies the shade of the shapes and no pattern is clear.\\n\\\\\\nEliminating Options:\\n * Options A, B, D, F, G, and H are impossible because they do not look like a gray square with triangle shape or do not adhere to sides expansion\\\\\\nBased on the process of elimination, the answer is therefore option E.\\n\\nThe correct answer is: E\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 200,
+            "total_tokens": 2166
+        }
+    },
+    {
+        "id": "gen-1751260192-qGkMrlM6itPpmpS3xA7S",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260192,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"The pattern involves changes to the shape and size, as well as shade. In the first column, the shapes from top to bottom are 'square, circle, hexagon, circle, hexagon, circle, square'. There is dark to light and the relative size from small to large. In the second column, the shapes are 'square, pentagon, hexagon, pentagon, square' The shading is also light to dark and shapes increase from small to large. In the last column. it starts with 'triangle' and moves from small 'triangle' to largest, the expected shape should be a square. Because its shade should increase from light to dark, the shape that matches the criteria is E.\\n\\nThe correct answer is: E\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 168,
+            "total_tokens": 2134
+        }
+    },
+    {
+        "id": "gen-1751260194-NAT4IlIA83xePl1034eX",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260194,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"The pattern seems to involve a combination of shape progression and shading. Going across each row, the number of vertices of the shapes increases. First row has shapes with 4 sides, 0 sides, and 3 sides. In the second row, we have shapes with 0, 5, and 3 sides. In the third row, we have 5, 0, 5 sides. The next row is 0, 5, 3. Finally we have 6, 5, and the missing shape. The final row contains squares and then shape 'dot', following the progression through each column the missing shape has to be a triangle. So we can ignore shape F and G as the shapes are not 'triangles'. Then we focus on the color of shapes, going downwards the color darkens. Hence, the correct answer is: E\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 194,
+            "total_tokens": 2160
+        }
+    },
+    {
+        "id": "gen-1751260196-REhsJAXZha6yVBS1hePP",
+        "provider": "Google",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260196,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"G\",\n  \"reasoning\": \"Let's analyze the pattern. In the rows, we can observe: In the row 1, there is a square that increases its size at each step. In row 2, the number of vertices of polygon is increasing from 5 to 6 to N vertices. The shapes are gray. The last shape must be a polygon with 6 vertices. The shading also is increasing from lighter to darker at each step. The correct answer is: G\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 111,
+            "total_tokens": 2077
+        }
+    },
+    {
+        "id": "gen-1751260198-X9FOuLU9SC6Qdgb7g3S9",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260198,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"G\",\n  \"reasoning\": \"The pattern seems to follow these rules:\\n1) Columns: The top shape from one row is the mid shape in the row below, and the mid shape from the row is the bottom shape in the row below. The amount of sides of a shape increase each row until it reaches six. After six, it becomes the starting shape squared.\\n2) Therefore, as the missing element is in the third column, the shapes should be in the third column, and in line with the first column pattern.\\n3) The shape should therefore have six sides (hexagon).\\n4) Therefore, according to the color shades, the Hexagon has to be shade 'G'.\\n\\nThe correct answer is: G\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 166,
+            "total_tokens": 2132
+        }
+    },
+    {
+        "id": "gen-1751260200-BXd68h9TLV630IE6jztS",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260200,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"E\",\n  \"reasoning\": \"The shapes on the left side of each row indicate what the shapes on the right side will look like in terms of color gradient and number of sides. The color moves from dark to light from top to bottom and left to right. The first row ranges from 4 sides to 3 sides. The second row ranges from 5 sides to 3 sides. The third row ranges from 6 sides to 'x'. The top row starts with a dark 4-sided shape which in the options matches 'E' in color tone and number of sides.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 130,
+            "total_tokens": 2096
+        }
+    },
+    {
+        "id": "gen-1751260201-yzeMJYbMZaHrJ84bReAv",
+        "provider": "Google AI Studio",
+        "model": "google/gemini-2.0-flash-001",
+        "object": "chat.completion",
+        "created": 1751260201,
+        "choices": [
+            {
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"prediction\": \"H\",\n  \"reasoning\": \"The pattern appears to be based on the interaction between the first two columns to produce the last column. Specifically, the shape in the rightmost column is the result of combining the first two shapes from the row, merging their common sections. Following the identified pattern, a square from the first column paired with a dot from second column would need to become a triangle in the third spot. Therefore, the correct shape must be H.\"\n}",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 103,
+            "total_tokens": 2069
+        }
+    }
+]
