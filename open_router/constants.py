@@ -1,5 +1,5 @@
 prompt = "cot_prompt"
-model = "openai/gpt-4o"
+model = "google/gemini-2.0-flash-001"
 dataset_type = "3_comp"
 datasets = ["oa_os_oc", "oa_os_nc", "oa_ns_oc", "oa_ns_nc",
             "na_os_oc", "na_os_nc", "na_ns_oc", "na_ns_nc"
